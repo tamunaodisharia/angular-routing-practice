@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "username": "tamuna1",
+    "firstName": "Tamuna",
+    "lastName": "Odisharia",
+    "aboutMe": "About Tamuna"
+  },
+  {
+    "id": 2,
+    "username": "tamuna2",
+    "firstName": "Tamuna",
+    "lastName": "Odisharia",
+    "aboutMe": "About Tamuna"
+  },
+  {
+    "id": 3,
+    "username": "tamuna3",
+    "firstName": "Tamuna",
+    "lastName": "Odisharia",
+    "aboutMe": "About Tamuna"
+  },
+  {
+    "id": 4,
+    "username": "tamuna4",
+    "firstName": "Tamuna",
+    "lastName": "Odisharia",
+    "aboutMe": "About Tamuna"
+  }
+]

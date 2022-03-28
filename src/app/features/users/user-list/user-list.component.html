@@ -1,0 +1,12 @@
+<section>
+  <button *ngIf="!users?.length" (click)="loadUsers()">Load Users</button>
+  <ng-container *ngIf="!loading; else loadingTmp"> </ng-container>
+  <ng-template #loadingTmp>loading...</ng-template>
+</section>
+<section>
+  <ul>
+    <li *ngFor="let user of users">
+      <a (click)="goToDetails(user!)">{{ user?.username }}</a>
+    </li>
+  </ul>
+</section>
