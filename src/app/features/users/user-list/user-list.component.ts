@@ -12,7 +12,9 @@ export class UserListComponent implements OnInit {
   loading = false;
   users: Array<User | undefined> = [];
 
-  constructor(private usersService: UsersService, private router: Router) {}
+  constructor(private usersService: UsersService, private router: Router) {
+    console.log('hello from user-list');
+  }
 
   async loadUsers() {
     this.loading = true;

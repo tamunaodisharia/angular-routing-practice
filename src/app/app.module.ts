@@ -7,7 +7,7 @@ import { UsersModule } from './features/users/users.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
-  declarations: [AppComponent, NotFoundComponent],
+  declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule, UsersModule],
   providers: [],
   bootstrap: [AppComponent],

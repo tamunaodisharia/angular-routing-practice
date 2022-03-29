@@ -14,10 +14,10 @@ const routes: Routes = [
     loadChildren: () =>
       import('../app/features/users/users.module').then((m) => m.UsersModule),
   },
-  {
-    path: '**',
-    component: NotFoundComponent,
-  },
+  // {
+  //   path: '**',
+  //   component: NotFoundComponent,
+  // },
 ];
 
 @NgModule({
